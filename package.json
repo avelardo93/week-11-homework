@@ -1,0 +1,22 @@
+{
+  "name": "week-11-hw",
+  "version": "1.0.0",
+  "description": "Constructor function practice",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelardo93/week-11-homework.git"
+  },
+  "author": "Anthony Velardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avelardo93/week-11-homework/issues"
+  },
+  "homepage": "https://github.com/avelardo93/week-11-homework#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
