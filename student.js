@@ -1,4 +1,3 @@
-var prompt = require('prompt');
 
 var Student = function(name, gender, grade, gpa, detentions, sleepingInClass, catchPhrase){
   	this.name = name;
@@ -17,10 +16,5 @@ var Student = function(name, gender, grade, gpa, detentions, sleepingInClass, ca
   };
 };
 
-prompt.get(['name', 'gender', 'grade', 'gpa', 'detentions', 'sleepingInClass', 'catchPhrase'], function(err, result) {
-  var student = new Student(result.name, result.gender, result.grade, result.gpa, result.detentions, result.sleepingInClass, result.catchPhrase)
-
-  student.canStudentHaveFun();
-});
 
 module.exports = Student;
